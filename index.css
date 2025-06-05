@@ -1,0 +1,420 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #15161A;
+    color: #fff;
+}
+
+.header {
+    display: flex;
+    padding: 80px 60px;
+    background-color: #15161A;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 60px;
+    height: 40vh;
+    background-color: #222;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 50px;
+    border: 1px solid #747171;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.icon img {
+    width: 32px;
+    height: 32px;
+    filter: invert(100%);
+    transition: all 0.3s ease;
+}
+
+.icon img:hover {
+    transform: scale(1.1);
+}
+
+.header-content {
+    max-width: 60%;
+    text-align: left;
+    margin-left: 10rem;
+}
+
+.header-content h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.header-content p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #ccc;
+    margin-bottom: 25px;
+    max-width: 600px;
+}
+
+.project-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.project-btn {
+    background-color: #6e69691a;
+    color: white;
+    padding: 15px 35px;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.project-btn1 {
+    background-color: #4d575699;
+    color: white;
+    padding: 15px 35px;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.div2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #15161A;
+}
+
+.project-card {
+    background: linear-gradient(135deg, #0a1a2b, #3a4e79);
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 75rem;
+    height: 40rem;
+}
+
+.project-card h2 {
+    font-size: 60px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    font-size: 20px;
+    color: #ccc;
+}
+
+.div3{
+    background-color: #15161A;
+    height: 50rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rec1{
+    background-color: #FFFFFF1A;
+    width: 302px;
+    height: 566px;
+    border-radius: 24px;
+}
+
+.rec2{
+    background-color: rgba(128, 128, 128, 0.2);
+    backdrop-filter: blur(8px);
+    width: 302px;
+    height: 566px;
+    border-radius: 24px;
+    margin-top: 8rem;
+    margin-left: -8rem;
+}
+
+.div3droite{
+    display: flex;
+
+}
+
+.butvisit{
+    width: 152px;
+    height: 40px;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2));
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.div3gauche{
+    margin-top: 8rem;
+}
+
+.div3gauche p{
+    margin-top: 25px;
+    color: rgb(162, 162, 162);
+}
+
+.butvisit{
+    margin-top: 25px;
+}
+
+.div4{
+    height: 80rem;
+    background-color: #15161A;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+
+.imgrect{
+    width: 90rem; 
+    height: auto; 
+    margin-left: 35px;
+    margin-top: -20rem
+}
+
+.divbleu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.divgris{
+    background-color: rgba(116, 113, 113, 0.4);
+    width: 1400px;
+    height: 700px;
+    border-radius: 20px;
+    margin-top: -32rem;
+    margin-left: 3rem;
+}
+
+.divimage{
+  display: flex;
+  justify-content: right;
+}
+
+.div5{
+  display: flex;
+  justify-content: right;
+}
+
+.imagediv5{
+  height: 45rem;
+  width: 70rem;
+}
+
+.imagediv6{
+  height: 80rem;
+}
+
+.div7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #15161A;
+    padding: 80px 40px;
+    flex-direction: column;
+}
+
+.div7-content {
+    text-align: center;
+    color: white;
+    max-width: 80%;
+    margin-bottom: 40px;
+}
+
+.div7-content h1 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.div7-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #ccc;
+    max-width: 800px;
+}
+
+.image-container {
+    width: 100%;
+    max-width: 900px;
+    margin-top: 20px;
+}
+
+.img-left {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    filter: blur(5px);
+}
+
+.grisdiv7{
+  height: 40rem;
+  width: 60rem;
+  background-color: #FFFFFF33;
+  border-radius: 20px;
+}
+
+.div8 {
+    height: 850px;
+    background-color: #15161A;
+
+}
+
+.div8 p{
+    color: #ffffff;
+    margin-left: 30rem;
+    margin-top: 10px;
+}
+
+.div8 h1{
+    margin-left: 30rem;
+}
+
+.dern{
+    margin-top: -80rem;
+}
+
+.span{
+    color: #747171;
+}
+
+.dernimg{
+    width: 95rem;
+    height: auto;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer p{
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 20px;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .sidebar {
+              margin-left: -4px;
+
+    }
+
+    .header-content {
+      margin-top: -24rem;
+      margin-left: 7rem;
+    }
+
+    .header-content h1 {
+        font-size: 32px;
+    }
+
+    .header-content p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .project-buttons {
+        gap: 15px;
+        margin-left: -5rem;
+    }
+
+    .project-btn, .project-btn1 {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    .project-card {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .project-card h2 {
+        font-size: 40px;
+    }
+
+    .div3 {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+            margin-top: -55rem;
+    }
+
+    .rec1, .rec2 {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .div4 {
+        padding: 20px;
+        margin-top: 28rem;
+    }
+
+    .imgrect {
+        width: 100%;
+    }
+
+    .div5 {
+        padding: 20px;
+    }
+
+    .divimage img {
+        width: 100%;
+    }
+
+    .div6 {
+        padding: 20px;
+    }
+
+    .imagediv6 {
+        width: 100%;
+    }
+
+    .div7 {
+        padding: 40px 20px;
+    }
+
+    .div7-content h1 {
+        font-size: 36px;
+    }
+
+    .div7-content p {
+        font-size: 16px;
+    }
+
+    .div8 h1 {
+        font-size: 32px;
+    }
+
+    .div8 p {
+        font-size: 16px;
+    }
+
+    .footer p {
+        font-size: 14px;
+    }
+}
